@@ -5,82 +5,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/style.css">
 </head>
 
 <body>
+
     <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li>Sobre</li>
-                    <li>Galeria</li>
-                    <li>Linha do tempo</li>
-                    <li>Links</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="about">
-        <div class="container">
-            <div class="container_names">
-                <h1>Ayrton Senna</h1>
-                <h2>Um dos maiores ídolos do esporte brasileiro.</h2>
-            </div>
-
-            <div class="box_img">
-                <img src="./assets/images/Ayrton Senna.jpg" alt="">
-            </div>
-
-            <div class="senna_lifespan">
-                <h2>1960 - 1994</h2>
-            </div>
-
-            <div class="resume">
-                <p>Ayrton Senna foi um piloto de Fórmula 1 e empresário. Sua conquista mais conhecida foi o
-                    tricampeonato mundial de F1, com títulos conquistados em 1988, 1990 e 1991 pela McLaren. Senna era
-                    reconhecido por sua habilidade na chuva, velocidade em voltas rápidas e sua intensa rivalidade com
-                    Alain Prost. Ao longo de sua carreira, pilotou para equipes como Toleman, Lotus, McLaren e Williams.
-                    Ayrton competiu na Fórmula 1 de 1984 até 1994, quando sofreu um acidente fatal no Grande Prêmio de
-                    San Marino.</p>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="galery">
-        <div class="container">
-            <div class="title">
-                <h2>Gallery</h2>
-            </div>
-            <div class="gallery_img"></div>
-            <div class="gallery_img"></div>
-            <div class="gallery_img"></div>
-        </div>
-    </section>
-
-    <section id="timeline">
-        <div class="container">
+        <nav id="menu">
             <ul>
-                <li>1960 - Nasceu em São Paulo, Brasil.</li>
-                <li>1981 - Iniciou sua carreira em monopostos na Europa.</li>
-                <li>1984 - Estreou na Fórmula 1 pela Toleman.</li>
-                <li>1985 - Venceu sua primeira corrida na Fórmula 1 com a Lotus.</li>
-                <li>1988 - Conquistou seu primeiro título mundial de Fórmula 1 com a McLaren.</li>
-                <li>1990 - Conquistou seu segundo título mundial de Fórmula 1.</li>
-                <li>1991 - Conquistou seu terceiro e último título mundial de Fórmula 1.</li>
-                <li>1994 - Faleceu após um acidente no Grande Prêmio de San Marino.</li>
-            </ul> 
-        </div>
-    </section>
+                <li><a href="#about">Sobre</a> | </li>
+                <li><a href="#galery">Galeria</a> | </li>
+                <li><a href="#timeline">Linha do tempo</a> | </li>
+                <li><a href="#references">Links</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="card_container">
+        <section id="about">
+            <div class="container">
+                <div class="container_names">
+                    <h1>Ayrton Senna</h1>
+                    <h2>Um dos maiores ídolos do esporte brasileiro.</h2>
+                </div>
+
+                <div class="box_img">
+                    <img src="./assets/images/Ayrton Senna.jpg" alt="">
+                </div>
+
+                <div class="senna_lifespan">
+                    <h2>1960 - 1994</h2>
+                </div>
+
+                <div class="resume">
+                    <p><span>Ayrton Senna</span> foi um piloto de Fórmula 1 e empresário. Sua conquista mais conhecida
+                        foi o
+                        <span>tricampeonato mundial de F1</span>, com títulos conquistados em 1988, 1990 e 1991 pela
+                        McLaren. Senna era
+                        reconhecido por sua <span>habilidade na chuva</span>, velocidade em voltas rápidas e sua intensa
+                        rivalidade com
+                        <span>Alain Prost</span>. Ao longo de sua carreira, pilotou para equipes como Toleman, Lotus,
+                        McLaren e Williams.
+                        Ayrton competiu na Fórmula 1<span> de 1984 até 1994</span>, quando sofreu um <span>acidente
+                            fatal</span> no Grande Prêmio de
+                        San Marino.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="galery">
+            <div class="container">
+                <div class="title">
+                    <h2>Galeria</h2>
+                </div>
+                <div class="box_img">
+                    <div class="galery_img">
+                        <img src="./assets/images/Senna Brasil.jpg" alt="">
+                    </div>
+                    <div class="galery_img">
+                        <img src="./assets/images/Senna Troféu.jpg" alt="">
+                    </div>
+                    <div class="galery_img">
+                        <img src="./assets/images/Senna Chuva.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline">
+            <div class="container">
+                <ul>
+                    <li>1960 - Nasceu em São Paulo, Brasil.</li>
+                    <li>1981 - Iniciou sua carreira em monopostos na Europa.</li>
+                    <li>1984 - Estreou na Fórmula 1 pela Toleman.</li>
+                    <li>1985 - Venceu sua primeira corrida na Fórmula 1 com a Lotus.</li>
+                    <li>1988 - Conquistou seu primeiro título mundial de Fórmula 1 com a McLaren.</li>
+                    <li>1990 - Conquistou seu segundo título mundial de Fórmula 1.</li>
+                    <li>1991 - Conquistou seu terceiro e último título mundial de Fórmula 1.</li>
+                    <li>1994 - Faleceu após um acidente no Grande Prêmio de San Marino.</li>
+                </ul>
+            </div>
+        </section>
 
 
-    <section id="references">
-        <div class="container">
-            <p>Para mais informações por favor visite <a href="https://pt.wikipedia.org/wiki/Ayrton_Senna" target="_blank">Wikipedia</a> e <a href="https://www.imdb.com/name/nm0784389/" target="_blank">IMDB.</a></p>
-        </div>
-    </section>
-
+        <section id="references">
+            <div class="container">
+                <p>Para mais informações por favor visite <a href="https://pt.wikipedia.org/wiki/Ayrton_Senna"
+                        target="_blank">Wikipedia</a> e <a href="https://www.imdb.com/name/nm0784389/"
+                        target="_blank">IMDB.</a></p>
+            </div>
+        </section>
+    </div>
     <footer>
         <div class="container">
             <div class="social_links"></div>
