@@ -34,12 +34,15 @@ header{
 
 .card_container{
     padding: 0px 100px;
+    background-color: #121212;
 }
 
 #about .container{
     background-color: #1C1C1C;
     text-align: center;
     padding: 15px;
+    border: 1px solid rgba(255, 204, 0, 0.6);
+    border-top: none;
 }
 
 .container_names h1,h2{
@@ -78,6 +81,8 @@ header{
     background-color: #000000;
     text-align: center;
     padding: 15px;
+    border: 1px solid rgba(255, 204, 0, 0.6);
+    border-top: none;
 }
 #galery .title{
     margin-bottom: 40px;
@@ -109,6 +114,8 @@ header{
     background-color: #000000;
     padding: 15px;
     text-align: center;
+    border: 1px solid rgba(255, 204, 0, 0.6);
+    border-top: none;
 }
 
 #timeline .linha_do_tempo{
@@ -141,6 +148,8 @@ header{
     background-color: #1C1C1C;
     padding: 30px;
     text-align: center;
+    border: 1px solid rgba(255, 204, 0, 0.6);
+    border-top: none;
 }
 
 #references .container p{
