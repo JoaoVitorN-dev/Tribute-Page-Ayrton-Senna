@@ -1,20 +1,25 @@
-body{
+* {
+    scrollbar-color: #FFCC00 #1C1C1C;
+    scrollbar-width: thin;
+}
+
+body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans';
 }
 
-header{
+header {
     background-color: #E10600;
     padding: 30px;
 }
 
-#menu ul{
+#menu ul {
     display: flex;
     justify-content: center;
 }
 
-#menu ul li{
+#menu ul li {
     list-style-type: none;
     color: #FFFFFF;
     margin-right: 5px;
@@ -23,21 +28,21 @@ header{
     font-weight: bold;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: #FFFFFF;
 }
 
-#menu a:hover{
+#menu a:hover {
     color: #FFCC00;
 }
 
-.card_container{
+.card_container {
     padding: 0px 100px;
     background-color: #121212;
 }
 
-#about .container{
+#about .container {
     background-color: #1C1C1C;
     text-align: center;
     padding: 15px;
@@ -45,59 +50,62 @@ header{
     border-top: none;
 }
 
-.container_names h1,h2{
+.container_names h1,
+h2 {
     color: #FFCC00;
-    text-shadow:  2px 2px black;
+    text-shadow: 2px 2px black;
 }
 
-.container_names h1{
+.container_names h1 {
     font-size: 35px;
     margin-top: 0px;
 }
 
-#about .box_img img{
+#about .box_img img {
     height: 630px;
     width: 500px;
     border-radius: 15px;
     border: 4px solid #009739;
 }
 
-#about .resume{
+#about .resume {
     padding: 4px 80px;
 }
 
-#about .resume p{
+#about .resume p {
     margin-top: 0px;
     color: #FFFFFF;
 }
 
-.resume p span{
+.resume p span {
     color: #FFCC00;
     font-weight: bold;
-    text-shadow:  2px 2px black;
+    text-shadow: 2px 2px black;
 }
 
-#galery .container{
+#galery .container {
     background-color: #000000;
     text-align: center;
     padding: 15px;
     border: 1px solid rgba(255, 204, 0, 0.6);
     border-top: none;
 }
-#galery .title{
+
+#galery .title {
     margin-bottom: 40px;
 }
-#galery .title h2{
+
+#galery .title h2 {
     color: #339CFF;
 }
 
-#galery .box_img{
+#galery .box_img {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
 
-#galery .galery_img img{
+#galery .galery_img img {
     height: 530px;
     width: 350px;
     border-radius: 15px;
@@ -106,11 +114,11 @@ header{
 }
 
 
-#galery .galery_img img:hover{
+#galery .galery_img img:hover {
     border: 4px solid #009739;
 }
 
-#timeline .container{
+#timeline .container {
     background-color: #000000;
     padding: 15px;
     text-align: center;
@@ -118,14 +126,16 @@ header{
     border-top: none;
 }
 
-#timeline .linha_do_tempo{
-    color: #FFCC00 ;
+#timeline .linha_do_tempo {
+    color: #FFCC00;
     margin-bottom: 30px;
 }
-#timeline ul{
+
+#timeline ul {
     margin: 50px 0px;
 }
-#timeline ul li{
+
+#timeline ul li {
     background-color: #FFCC00;
     color: #E10600;
     list-style: none;
@@ -137,14 +147,14 @@ header{
     border-radius: 5px;
 }
 
-#timeline span{
+#timeline span {
     background-color: #009739;
     padding: 5px;
     color: #FFCC00;
     border-radius: 3px;
 }
 
-#references .container{
+#references .container {
     background-color: #1C1C1C;
     padding: 30px;
     text-align: center;
@@ -152,47 +162,122 @@ header{
     border-top: none;
 }
 
-#references .container p{
+#references .container p {
     color: #FFFFFF;
     font-weight: 400;
 }
 
-#references .container a{
+#references .container a {
     text-decoration: none;
     color: #FFFFFF;
 }
 
-#references .container a:hover{
+#references .container a:hover {
     color: #009739;
 }
 
-footer .container{
+footer .container {
     background-color: #121212;
     text-align: center;
     padding: 30px;
 }
 
-footer .container .social_links{
+footer .container .social_links {
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
-footer .container img{
+footer .container img {
     width: 30px;
     height: 30px;
 }
 
-footer .container .created_by{
+footer .container .created_by {
     margin-top: 15px;
     color: #FFFFFF;
 }
 
-footer .container .created_by a{
+footer .container .created_by a {
     text-decoration: none;
     color: #FFCC00;
 }
 
-footer .container .created_by a:hover{
+footer .container .created_by a:hover {
     color: #E10600;
+}
+
+
+#menu .line_menu {
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+
+@media (max-width: 428px){
+    #menu ul{
+        padding-left: 0px;
+    }
+    #menu ul li{
+        font-size: 14px;
+    }
+    .card_container{
+        padding: 0px 30px;
+    }
+
+    .container_names h1{
+        font-size: 25px;
+    }
+
+    .container_names h2{
+        font-size: 16px;
+    }
+
+    #about .box_img img{
+        height: auto;
+        width: 100%;
+    }
+
+    .senna_lifespan h2{
+        font-size: 18px;
+    }
+
+    #about .resume{
+        padding: 4px 10px;
+    }
+
+    #about .resume p{
+        font-size: 14px;
+    }
+    #galery .box_img{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #galery .galery_img img{
+        min-height: auto;
+        width: 100%;
+        margin:0px;
+    }
+
+    #timeline ul{
+        padding-left: 0px;
+    }
+
+    #timeline ul li{
+        width: auto;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    #timeline span{
+        padding: 3px;
+    }
+}
+
+@media (max-width: 375px){
+    #menu ul li{
+        font-size: 12px;
+    }
 }
