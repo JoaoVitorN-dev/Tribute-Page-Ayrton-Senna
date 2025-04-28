@@ -214,6 +214,29 @@ footer .container .created_by a:hover {
 }
 
 
+@media (max-width: 1080px){
+    #galery .box_img{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #timeline ul li{
+        width: 80%;
+    }
+
+    #timeline ul{
+        padding-left: 0px;
+    }
+
+    #timeline span{
+        padding: 3px;
+    }
+
+    #timeline ul li{
+        line-height: 23px;
+    }
+}
+
 @media (max-width: 428px){
     #menu ul{
         padding-left: 0px;
@@ -276,8 +299,9 @@ footer .container .created_by a:hover {
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 376px){
     #menu ul li{
-        font-size: 12px;
+        font-size: 13px;
     }
 }
+
